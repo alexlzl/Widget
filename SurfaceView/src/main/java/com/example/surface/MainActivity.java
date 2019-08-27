@@ -19,7 +19,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new MySurfaceView(this));
+        setContentView(new SurfaceViewHandWriting(this));
+//        setContentView(new SurfaceViewSinFun(this));
+//        setContentView(new MySurfaceView(this));
 //        TextView textView=new TextView(this);
 //        textView.setText("test");
 //        textView.setTextColor(getResources().getColor(R.color.colorAccent));
