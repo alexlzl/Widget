@@ -37,6 +37,40 @@ public class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback
         // 启动线程。当这个方法调用时，说明Surface已经有效了
         myThread.setRun(true);
         myThread.start();
+//        int counter = 0;
+
+
+//        Canvas canvas = null;
+//            // 具体绘制工作
+//            try {
+//                // 获取Canvas对象，并锁定之
+//                canvas = holder.lockCanvas();
+//
+//                // 设定Canvas对象的背景颜色
+//                canvas.drawColor(Color.WHITE);
+//
+//                // 创建画笔
+//                Paint p = new Paint();
+//                // 设置画笔颜色
+//                p.setColor(Color.BLACK);
+//                // 设置文字大小
+//                p.setTextSize(30);
+//
+//                // 创建一个Rect对象rect
+//                Rect rect = new Rect(100, 50, 380, 330);
+//                // 在canvas上绘制rect
+//                canvas.drawRect(rect, p);
+//                // 在canvas上显示时间
+//                canvas.drawText("Interval = " + (counter++) + " seconds.", 100, 410, p);
+//                Thread.sleep(1000);
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            } finally {
+//                if (canvas != null) {
+//                    // 解除锁定，并提交修改内容
+//                    holder.unlockCanvasAndPost(canvas);
+//                }
+//            }
     }
 
     @Override
