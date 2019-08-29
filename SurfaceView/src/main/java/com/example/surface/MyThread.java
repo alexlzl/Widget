@@ -31,7 +31,7 @@ public class MyThread extends Thread {
                 canvas = holder.lockCanvas();
 
                 // 设定Canvas对象的背景颜色
-                canvas.drawColor(Color.WHITE);
+                canvas.drawColor(Color.RED);
 
                 // 创建画笔
                 Paint p = new Paint();
